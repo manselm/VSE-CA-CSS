@@ -46,18 +46,18 @@ table {
 /* if portrait mode is detected, rotate the entire site -90 degrees to hint rotating to landscape */
 @font-face {
 	font-family: 'myriadlight';
-	src: url('/e/visacanadanew/timages/fonts/myriad-light.eot');
-	src: url('/e/visacanadanew/timages/fonts/myriad-light.eot') format('embedded-opentype'), url('/e/visacanadanew/timages/fonts/myriad-light.woff2') format('woff2'), url('/e/visacanadanew/timages/fonts/myriad-light.woff') format('woff'), url('/e/visacanadanew/timages/fonts/myriad-light.ttf') format('truetype'), url('/e/visacanadanew/timages/fonts/myriad-light.svg#myriadlight') format('svg');
+	src: url('/e/visacanada/timages/fonts/myriad-light.eot');
+	src: url('/e/visacanada/timages/fonts/myriad-light.eot') format('embedded-opentype'), url('/e/visacanada/timages/fonts/myriad-light.woff2') format('woff2'), url('/e/visacanada/timages/fonts/myriad-light.woff') format('woff'), url('/e/visacanada/timages/fonts/myriad-light.ttf') format('truetype'), url('/e/visacanada/timages/fonts/myriad-light.svg#myriadlight') format('svg');
 }
 @font-face {
 	font-family: 'myriadregular';
-	src: url('/e/visacanadanew/timages/fonts/myriad-regular.eot');
-	src: url('/e/visacanadanew/timages/fonts/myriad-regular.eot') format('embedded-opentype'), url('/e/visacanadanew/timages/fonts/myriad-regular.woff2') format('woff2'), url('/e/visacanadanew/timages/fonts/myriad-regular.woff') format('woff'), url('/e/visacanadanew/timages/fonts/myriad-regular.ttf') format('truetype'), url('/e/visacanadanew/timages/fonts/myriad-regular.svg#myriadregular') format('svg');
+	src: url('/e/visacanada/timages/fonts/myriad-regular.eot');
+	src: url('/e/visacanada/timages/fonts/myriad-regular.eot') format('embedded-opentype'), url('/e/visacanada/timages/fonts/myriad-regular.woff2') format('woff2'), url('/e/visacanada/timages/fonts/myriad-regular.woff') format('woff'), url('/e/visacanada/timages/fonts/myriad-regular.ttf') format('truetype'), url('/e/visacanada/timages/fonts/myriad-regular.svg#myriadregular') format('svg');
 }
 @font-face {
 	font-family: 'myriadbold';
-	src: url('/e/visacanadanew/timages/fonts/myriad-bold.eot');
-	src: url('/e/visacanadanew/timages/fonts/myriad-bold.eot') format('embedded-opentype'), url('/e/visacanadanew/timages/fonts/myriad-bold.woff2') format('woff2'), url('/e/visacanadanew/timages/fonts/myriad-bold.woff') format('woff'), url('/e/visacanadanew/timages/fonts/myriad-bold.ttf') format('truetype'), url('/e/visacanadanew/timages/fonts/myriad-bold.svg#myriadbold') format('svg');
+	src: url('/e/visacanada/timages/fonts/myriad-bold.eot');
+	src: url('/e/visacanada/timages/fonts/myriad-bold.eot') format('embedded-opentype'), url('/e/visacanada/timages/fonts/myriad-bold.woff2') format('woff2'), url('/e/visacanada/timages/fonts/myriad-bold.woff') format('woff'), url('/e/visacanada/timages/fonts/myriad-bold.ttf') format('truetype'), url('/e/visacanada/timages/fonts/myriad-bold.svg#myriadbold') format('svg');
 }
 body {
 	font-family: myriadlight, arial, sans-serif;
@@ -2117,6 +2117,9 @@ a.infopop:active p.obscured{
 	position: relative;
 	width: 1024px;
 	margin: 0 auto;
+}
+.global_wrapper-content {
+	width:1024px;	
 }
 .global_wrapper-footer {
 	clear: both;
